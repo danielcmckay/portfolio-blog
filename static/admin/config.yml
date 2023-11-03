@@ -9,7 +9,7 @@ collections:
   - name: posts
     label: Post
     folder: content/blog
-    path: '{{year}}-{{month}}-{{day}}-{{title}}'/index
+    path: '{{year}}-{{month}}-{{day}}-{{title}}/index'
     create: true
     slug: index
     fields:
