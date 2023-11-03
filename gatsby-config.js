@@ -9,15 +9,15 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Daniel McKay Photography`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Daniel McKay`,
+      summary: `a writer, software engineer, and landscape photographer based in Washington state.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Landscape photography, travel writing, and other musings.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      instagram: `danielcmckay`,
     },
   },
   plugins: [

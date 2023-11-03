@@ -36,10 +36,11 @@ const Bio = () => {
         className="bio-avatar"
         layout="fixed"
         formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
+        src="../images/headshot.jpg"
         width={50}
         height={50}
         quality={95}
+        imgStyle={{alignSelf: "center"}}
         alt="Profile picture"
       />
       {author?.name && (
