@@ -8,7 +8,8 @@ public_folder: ../../static/images
 collections:
   - name: posts
     label: Post
-    folder: 'content/blog/{{year}}-{{month}}-{{day}}-{{slug}}'
+    folder: content/blog/
+    path: '{{year}}-{{month}}-{{day}}-{{title}}'
     create: true
     slug: index
     fields:
